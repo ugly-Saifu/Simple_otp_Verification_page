@@ -8,7 +8,7 @@ const transporter = nodemailer.createTransport({
     service:"gmail",
     auth:{
         user:"gg205628@gmail.com",
-        pass: process.env.pass ||"ecbn apco qqam eogi",
+        pass: process.env.pass ||"your own app password here",
     }
 })
 mongoose.connect("mongodb://localhost:27017/Wayne_Tower").then(()=>{
